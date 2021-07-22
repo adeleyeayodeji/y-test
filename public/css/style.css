@@ -1,0 +1,71 @@
+.section {
+    padding: 80px 0;
+}
+#services {
+    position: relative;
+    background: #f2f2f2;
+}
+.section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.item-boxes {
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.item-boxes:hover {
+    background: #fff;
+    box-shadow: 0 8px 48px 0 rgb(0 0 0 / 15%);
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.item-boxes .icon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #4676fa;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.item-boxes .icon i {
+    font-size: 30px;
+    line-height: 60px;
+    color: #4676fa;
+}
+.lnr {
+    font-family: 'Linearicons-Free';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.item-boxes h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
